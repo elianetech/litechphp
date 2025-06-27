@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+         // Digite 10 nomes e bairros de pessoas 
+         // Exiba em ordem alfabetica (pelo nome)
+
+
+         lista = []
+         qtd = 3
+         for(i =0; i < qtd; i++){
+            nome = prompt("digite o nome")
+            bairro = prompt("Digite o bairro")
+            lista[i] = [nome,bairro]
+            //lista.push([nome, bairro])
+
+
+        }
+
+
+     // Ordenar em computação é "sort"
+     // Ordenar na propria a lista
+         lista.sort()
+
+         lista.forEach(pessoa => {
+             document.write(pessoa+'<br>')
+    });
+
+    // Copiar e ordenar na copia
+    listaOrdenada = lista.toSorted()
+
+    //Se for ordenar uma lista numerica
+    // Deve usar (se for descrecente b-a)
+    lista.sort((a,b) => a-b)
+
+            </script>
+
+</body>
+</html>
