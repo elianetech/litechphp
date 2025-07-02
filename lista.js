@@ -14,7 +14,3 @@ console.log(doces[0], doces[4])
     console.log(doces[i])
  }
 
- doces.forEach(doce => {
-    console.log()
-    
- 
