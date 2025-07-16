@@ -1,52 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+<!-- Isto é um coment-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Curriculo</title>
-    <style>
-        header {
-            text-align: center;
-        }
-
-        h1 {
-            color: rgb(132, 0, 255);
-            font-size: 50px;
-            font-style: italic;
-
-        }
-
-        h2 {
-            color: red;
-            text-align: center;
-        }
-
-        div.resumo {
-            color: pink;
-        }
-    </style>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Pacifico&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <!-- Css externo-->
+   
 </head>
 
-<body>
-    <header>
-        <h1>Eliane Teixeira Rodrigues</h1>
-        <h2>elliane13rodrigues@gmail.com</h2>
-        <h2>(21) 99261-5500</h2>
+<body class="poiret-one-regular">
+    <figure>
+        <img src="girassol.png" width="150px" alt="imagem do girassol. A imagem é petalas amarelas,com folhas verdes."
+            title="imagem do girassol">
+        <figcaption>
+            <p> figura 1. Imagem do candidato</p>
 
+        </figcaption>
+    </figure>
+    <nav class="menu" id="home">
+<ul>
+    <li> 
+        <a href="#home">home</a>
+    </li>
+    <li>
+        <a href="https://rj.senac.br">Site do Senac</a>
+    </li>
+    <li>
+        <a href="#apresentacao">Apresentacao</a>
+    </li>
+</ul>
+
+    </nav>
+    <header>
+        <h1 class="titulo-principal">Eliane teixeira Rodrigues</h1>
+        <h2 class="titulo" id="subtitulo">lliane13rodrigues@gmail</h2>
+        <h2 class="titulo-principal" id="subtitulo"> (21) 99261-5500</h2>
 
     </header>
-
 
     <section>
         <div class="resumo">
 
-
-
             <h2> Resumo</h2>
-            <p>lorem</p>
-            <p>lorem</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus alias dolores tenetur, ut quae velit
+                ab
+                quia est adipisci temporibus. Nam iste quae laboriosam obcaecati provident! Dicta nemo et possimus?
+            </p>
+            <p id="roxo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio voluptas blanditiis tenetur
+                molestias nostrum, nobis quasi, sequi ratione, natus fuga accusantium quia cumque pariatur minima
+                reprehenderit itaque nisi repudiandae ea.</p>
         </div>
         <div>
 
@@ -75,10 +84,59 @@
 
 
         </div>
+        <div>
+            <h2>Idiomas</h2>
+            <ul>
+                <li>
+                    <p>Inglês - Básico</p>
+                </li>
+            </ul>
+        </div>
+        <div class="video" style="text-align:center;" id="apresentacao">
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5TLM6WUDZT0?si=DTN2DbTqLVmrGyKW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+        </div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1902822.462777125!2d-44.84066053901882!3d-21.33273350411553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9981df66f6020b%3A0x5fed1e66fa865506!2sFaculdade%20Senac%20RJ!5e0!3m2!1spt-BR!2sbr!4v1752245177127!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
+    </section>
+    <section>
+        <form>
+            <p>
+                <label>Nome Completo:</label>
+
+           </p> 
+           <p> 
+            <input type="text">
+           </p>                                
+           <p>
+            <label>E-mail</label>
+                       </p>
+                       <p>
+                        <input type="email">
+                       </p>
+                       <p>
+                        <label>Cidade;</label>
+                       </p>
+                       <p>
+                        <select name="cidade">
+                            <option>Rio de Janeiro</option>                             
+                            <option>Niteroi</option>
+                            <option>Nova Friburgo</option>
+                        </select>
+                       </p>
+                       <p>
+                        <textarea cols="50"></textarea>
+                       </p>
+                       <input type="submit" 
+                       value="Enviar">
+                       <button
+                     type="reset">Limpar</button>
+
+        </form>
     </section>
     <footer>
         <p>Currículo de Eliane Teixeira Rodrigues &copy;2025</p>

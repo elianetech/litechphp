@@ -1,0 +1,30 @@
+.funnel-display-eliane {
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+
+}
+
+.titulo-principal {
+    color: #F34AFF;
+    font-size: 50px;
+    font-style: italic;
+
+}
+
+#subtitulo {
+    color: #FF9FD1;
+    font-style: normal;
+    font-size: 25px;
+}
+/* colocando menu lado-a-lado*/
+.menu ul li {
+display: inline-block;
+border:1px solid #e546a3;
+background-color: #000000;
+}
