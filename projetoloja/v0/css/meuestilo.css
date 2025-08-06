@@ -1,0 +1,12 @@
+.bg-meu{
+   
+    
+    background-image:url('../assets/tcn.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter:opacity(0.8);
+}
+
+.text-meu-azul{
+    color: #2c0080
+}
