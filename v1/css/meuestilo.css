@@ -1,0 +1,21 @@
+.bg-banner {
+    background-image: url('../assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -100px;
+    
+}
+
+/*
+
+ CASO EU QUISESSE UM TOM DE AZUL PRA COR DE FONTE
+.text-meu-azul {
+    color: #2C0080;
+}
+*/
+.whatsapp img{
+    width: 64px;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;   
+}
